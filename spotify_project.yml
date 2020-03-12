@@ -1,0 +1,47 @@
+name: prodsight
+channels:
+  - defaults
+dependencies:
+  - ca-certificates=2020.1.1
+  - certifi=2019.11.28
+  - libcxx=4.0.1
+  - libcxxabi=4.0.1
+  - libedit=3.1.20181209
+  - libffi=3.2.1
+  - ncurses=6.2
+  - openssl=1.1.1d
+  - pip=20.0.2
+  - python=3.6.10
+  - readline=7.0
+  - setuptools=46.0.0
+  - sqlite=3.31.1
+  - tk=8.6.8
+  - wheel=0.34.2
+  - xz=5.2.4
+  - zlib=1.2.11
+  - pip:
+    - boto==2.49.0
+    - boto3==1.12.19
+    - botocore==1.15.19
+    - chardet==3.0.4
+    - docutils==0.15.2
+    - gensim==3.8.1
+    - idna==2.9
+    - jmespath==0.9.5
+    - joblib==0.14.1
+    - nltk==3.4.5
+    - numpy==1.18.1
+    - pandas==1.0.1
+    - python-dateutil==2.8.1
+    - pytz==2019.3
+    - requests==2.23.0
+    - s3transfer==0.3.3
+    - scikit-learn==0.22.2.post1
+    - scipy==1.4.1
+    - six==1.14.0
+    - sklearn==0.0
+    - smart-open==1.9.0
+    - urllib3==1.25.8
+    - vadersentiment==3.2.1
+prefix: /Users/rong2/opt/anaconda3/envs/prodsight
+

@@ -97,4 +97,4 @@ if "__name__" == "__main__":
     topic_categorisation = lda_model.topic_categorisation()
 
     cleaned_dataset[['dominant_topic', 'contribution_perc', 'topic_keywords']] = pd.DataFrame(topic_categorisation)
-    cleaned_dataset.to_csv('clustered_data.csv', index = False)
+    # cleaned_dataset.to_csv('clustered_data.csv', index = False)

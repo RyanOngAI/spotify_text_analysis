@@ -36,4 +36,4 @@ if "__name__" == "__main__":
 
     # Merging clustering results with original dataset
     final_dataset = pd.merge(clustered_dataset, text_similarity_clustered_df, on = 'message_body_processed')
-    final_dataset.to_csv('complete_clustering.csv', index = False)
+    # final_dataset.to_csv('complete_clustering.csv', index = False)
